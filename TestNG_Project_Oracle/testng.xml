@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Annotations.ParamWithExcel"/>
+      <class name="com.Annotations.OneMoreAssertion"/>
+      <class name="com.Annotations.DependencyExample"/>
+      <class name="com.Annotations.HardAssertionExample"/>
+      <class name="com.Annotations.SoftAssertExample"/>
+      <class name="com.Annotations.FailMethod"/>
+      <class name="com.Annotations.Annot"/>
+      <class name="com.Annotations.WorkWithExcel"/>
+      <class name="com.Annotations.Priority"/>
+      <class name="com.Annotations.FetchDataFromDataPool"/>
+      <class name="com.Annotations.Param"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

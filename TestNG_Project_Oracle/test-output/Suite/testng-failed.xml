@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Annotations.FailMethod">
+        <methods>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- com.Annotations.FailMethod -->
+      <class name="com.Annotations.OneMoreAssertion">
+        <methods>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- com.Annotations.OneMoreAssertion -->
+      <class name="com.Annotations.SoftAssertExample">
+        <methods>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- com.Annotations.SoftAssertExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

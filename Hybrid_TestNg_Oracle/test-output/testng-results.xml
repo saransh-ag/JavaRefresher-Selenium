@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8889" started-at="2018-02-02T09:41:21Z" finished-at="2018-02-02T09:41:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8889" started-at="2018-02-02T09:41:21Z" finished-at="2018-02-02T09:41:30Z">
+      <class name="com.TestCases.Test123">
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:com.TestCases.Test123@523884b2]" name="bmethod" is-config="true" duration-ms="0" started-at="2018-02-02T15:11:21Z" finished-at="2018-02-02T15:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test123@523884b2]" name="testcase123" duration-ms="3363" started-at="2018-02-02T15:11:21Z" data-provider="getdata" finished-at="2018-02-02T15:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test123@523884b2]" name="testcase123" duration-ms="2643" started-at="2018-02-02T15:11:25Z" data-provider="getdata" finished-at="2018-02-02T15:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test123@523884b2]" name="testcase123" duration-ms="2703" started-at="2018-02-02T15:11:27Z" data-provider="getdata" finished-at="2018-02-02T15:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+      </class> <!-- com.TestCases.Test123 -->
+      <class name="com.TestCases.Test456">
+        <test-method status="SKIP" signature="bmethod()[pri:0, instance:com.TestCases.Test456@5b275dab]" name="bmethod" is-config="true" duration-ms="1" started-at="2018-02-02T15:11:30Z" finished-at="2018-02-02T15:11:30Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This testcase is not set for execution]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This testcase is not set for executionat com.TestCases.Test456.bmethod(Test456.java:19)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="SKIP" signature="testcase123(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test456@5b275dab]" name="testcase123" duration-ms="0" started-at="2018-02-02T15:11:30Z" data-provider="getdata" finished-at="2018-02-02T15:11:30Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This testcase is not set for execution]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This testcase is not set for executionat com.TestCases.Test456.bmethod(Test456.java:19)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="SKIP" signature="testcase123(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test456@5b275dab]" name="testcase123" duration-ms="0" started-at="2018-02-02T15:11:30Z" data-provider="getdata" finished-at="2018-02-02T15:11:30Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This testcase is not set for execution]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This testcase is not set for executionat com.TestCases.Test456.bmethod(Test456.java:19)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="SKIP" signature="testcase123(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.Test456@5b275dab]" name="testcase123" duration-ms="0" started-at="2018-02-02T15:11:30Z" data-provider="getdata" finished-at="2018-02-02T15:11:30Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This testcase is not set for execution]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This testcase is not set for executionat com.TestCases.Test456.bmethod(Test456.java:19)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+      </class> <!-- com.TestCases.Test456 -->
+      <class name="com.TestCases.OpenAndCloseBrowser">
+        <test-method status="PASS" signature="bsuite()[pri:0, instance:com.TestCases.OpenAndCloseBrowser@4501b7af]" name="bsuite" is-config="true" duration-ms="5648" started-at="2018-02-02T15:11:16Z" finished-at="2018-02-02T15:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method status="PASS" signature="asuite()[pri:0, instance:com.TestCases.OpenAndCloseBrowser@4501b7af]" name="asuite" is-config="true" duration-ms="834" started-at="2018-02-02T15:11:30Z" finished-at="2018-02-02T15:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asuite -->
+      </class> <!-- com.TestCases.OpenAndCloseBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

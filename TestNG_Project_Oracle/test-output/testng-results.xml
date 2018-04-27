@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49" started-at="2018-01-30T10:04:53Z" finished-at="2018-01-30T10:04:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49" started-at="2018-01-30T10:04:53Z" finished-at="2018-01-30T10:04:53Z">
+      <class name="com.Annotations.Priority">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.Annotations.Priority@51081592]" name="login" duration-ms="13" started-at="2018-01-30T15:34:53Z" finished-at="2018-01-30T15:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="composeMail()[pri:2, instance:com.Annotations.Priority@51081592]" name="composeMail" duration-ms="3" started-at="2018-01-30T15:34:53Z" finished-at="2018-01-30T15:34:53Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this test caseat com.Annotations.Priority.composeMail(Priority.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="saveMail()[pri:3, instance:com.Annotations.Priority@51081592]" name="saveMail" duration-ms="1" started-at="2018-01-30T15:34:53Z" finished-at="2018-01-30T15:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveMail -->
+      </class> <!-- com.Annotations.Priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

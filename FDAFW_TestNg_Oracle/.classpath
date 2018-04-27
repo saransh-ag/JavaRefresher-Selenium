@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/ShineXLS.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/ExcelJars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.8.1/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/Tutorials/Selenium 29 Jan/Selenium Files/Selenium 3.4.0/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
